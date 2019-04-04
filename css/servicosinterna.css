@@ -175,7 +175,7 @@
     content: '';
     left: 0;
     top: 0;
-    width: 60.5%;
+        width: 58vw;
     height: 100%;
     background-image: url(../images/servicos-interna/consul_adicional.jpg), linear-gradient(to right, #006b9d, #099ab3);
     background-blend-mode: multiply;
