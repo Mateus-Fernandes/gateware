@@ -1,0 +1,43 @@
+.contato {
+    background-image: url(../images/contato/contato_topo.jpg);
+    background-position: center;
+    background-color: #585b65;
+    background-blend-mode: multiply;
+}
+
+.textoContato {
+    background: #e4e4e4;
+    font-size: 15px;
+    color: #252525;
+    line-height: 21px;
+    padding-top: 39px;
+    padding-bottom: 50px;
+}
+/*Nossos Contatos*/
+.nossos_contatos{
+	background: #808289;	text-align: center;
+    padding-top:58px;
+    padding-bottom: 53px;
+}
+.nossos_contatos h3{
+	font-size: 20px;
+	line-height: 48px;
+	color: #001222;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+.nossos_contatos p{
+	font-weight: normal;
+	color: #FFF;
+	line-height: 19px;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+
+.cadaContato{
+	border-right: 3px solid #6c717a;
+}
+.cadaContato:last-child{
+	border:none;
+}
+

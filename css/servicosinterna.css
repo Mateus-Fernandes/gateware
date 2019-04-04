@@ -1,0 +1,220 @@
+.servicosInterna {
+    background-image: url(../images/servicos-interna/pmo-interna.jpg);
+    background-position: center;
+    background-color: #3271aa;
+    background-blend-mode: multiply;
+}
+
+
+.textoServicos {
+    background: #dde9e9;
+}
+
+.textoServicos p {
+    color: #657487;
+    font-size: 15px;
+    line-height: 27px;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.servicosInterna .tituloPagina h1 {
+    line-height: 63px;
+}
+
+.tituloServicos_row {
+    padding-top: 14px;
+}
+
+.iconeServico {
+    width: 252px;
+    height: 251px;
+    background: url(../images/servicos-interna/pmo.svg);
+    background-repeat: no-repeat;
+    margin-top: 46px;
+    margin-bottom: 93px;
+    background-size: cover;
+}
+
+.servicosInterna .tituloPagina {
+    padding-left: 61px;
+}
+
+.textoServicos_interna {
+    background: #f8f9f9;
+}
+
+.execucaoimg {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 42%;
+    height: 100%;
+    background-image: url(../images/servicos-interna/execucao.jpg);
+    background-color: #214464;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.execucao {
+    position: relative;
+    background: #001222;
+}
+
+.numServico {
+    font-size: 140px;
+    font-weight: 300;
+    color: #ff6d1e;
+    border-right: 2px solid #ff6d1e;
+    flex: 0 0 19%;
+    margin: 13px 0;
+}
+
+.numServico span {
+    margin-top: -48px;
+}
+
+.textoExecucao {
+    padding-left: 26px;
+    padding-bottom: 20px;
+    margin: 13px 0;
+}
+
+.textoExecucao h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #0278a5;
+    padding: 10px 0px;
+    text-transform: none;
+}
+
+.textoExecucao p {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.execucao h2 {
+    font-size: 24px;
+    color: #0077a4;
+    letter-spacing: 3px;
+    font-family: 'LatoWebMedium';
+    margin-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+
+.fs_adicionalimg {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 53%;
+    height: 100%;
+    background-image: url(../images/servicos-interna/fs_adicional.jpg), linear-gradient(to right, #0893af, #17b4bc);
+    background-blend-mode: multiply;
+}
+
+.fs_adicional {
+    position: relative;
+    background: #006b9d; /* Old browsers */
+    background: -moz-linear-gradient(left, #006b9d 0%, #21bbbd 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006b9d 0%,#21bbbd 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006b9d 0%,#21bbbd 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006b9d', endColorstr='#21bbbd',GradientType=1 ); /* IE6-9 */
+}
+
+.fs_adicionalinner h3 {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 19px;
+    width: 58%;
+    padding-left: 20px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.fs_adicionalinner .lista_servico ul {
+    padding-left: 21px;
+}
+.fs_adicionalinner .lista_servico ul li {
+    color: #dedfdf;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fs_adicionalinner .titulo_servico {
+    margin-bottom: 18px;
+    padding-top: 37px;
+}
+
+.fs_adicionalinner .saiba_mais_info {
+    padding: 14px 108px;
+}
+
+.fs_adicionalinner .lista_servico {
+    margin-bottom: 50px;
+}
+
+.fs_adicionalinner .botaoSaiba {
+    height: 30px;
+    width: 100%;
+    padding-bottom: 110px;
+}
+
+.execucaorow {
+    padding-bottom: 128px;
+}
+
+.consul_adicionalimg {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 60.5%;
+    height: 100%;
+    background-image: url(../images/servicos-interna/consul_adicional.jpg), linear-gradient(to right, #006b9d, #099ab3);
+    background-blend-mode: multiply;
+}
+.consul_adicionalinner .cada_servico {
+    padding-left: 20px;
+}
+
+.consul_adicionalinner .lista_servico ul {
+    list-style: none;
+}
+
+.consul_adicionalinner .lista_servico li:before {
+    content: "•";
+    color: #ff890b;
+    display: inline-block;
+    width: 22px;
+    margin-left: -29px;
+}
+
+.consul_adicionalinner .botaoSaiba {
+    height: 30px;
+    width: 100%;
+    padding-bottom: 93px;
+}
+
+.servicos_textointerna {
+    padding-top: 67px;
+    padding-bottom: 51px;
+}
+
+.gostou_gateware {
+    background: #712c81;
+}
+
+.consul_adicional {
+    background: #006c9e; /* Old browsers */
+    background: -moz-linear-gradient(left, #006c9e 0%, #21bbbd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #006c9e 0%,#21bbbd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #006c9e 0%,#21bbbd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006c9e', endColorstr='#21bbbd',GradientType=1 ); /* IE6-9 */
+}

@@ -1,0 +1,242 @@
+.talentos {
+    background-image: url(../images/talentos/talentos.jpg);
+    background-position: center;
+    background-color: #4b4e52;
+    background-blend-mode: multiply;
+}
+.azul_talento{
+    color: #0077a4;
+}
+.textoTalento {
+    font-size: 15px;
+    color: #252525;
+    line-height: 21px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.oportunidades_talentos{
+    padding-top: 62px;
+    padding-bottom: 42px;
+}
+
+/* VaGAS */
+
+.cada_vaga{
+    border: 2px solid #f0f7fa;
+    min-height: 117px;
+    margin-bottom: 28px;
+    padding-left: 45px;
+    padding-right: 30px;
+    transition: 0.2s;
+}
+.cada_vaga:hover {
+    border: 2px solid #4887a2;
+}
+h3.titulo_vaga {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0278a5;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.descricao_vaga{
+    font-size: 15px;
+    line-height: 19px;
+    color: #001222;
+}
+.seta_vaga{
+    width: 64px;
+    height: 37px;
+    background-image: url(../images/assets/sprite.png);
+    background-position: 107px -131px;
+    transition: .2s
+}
+.seta_vaga:hover{
+    transform: translateX(20px);
+}
+/* SOFTSKILL */
+.soft_skill{
+    padding-top: 78px;padding-bottom: 68px;
+    background: #e4e4e4;
+}
+.azul_soft{
+    color: #0fa6b6;
+}
+.cada_skill{
+    border-right: 2px solid #cfcfcf;
+}
+.cada_skill:last-child{
+    border-right: none;
+}
+.cada_skill h3{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    color: #005278;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+.cada_skill p {
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #001222;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.iconeSkill{
+    background-image: url(../images/assets/sprite.png);
+    min-height: 104px;
+    margin-bottom: 30px;
+}
+.skills{
+    padding-top: 58px;
+}
+.i_atencioso{
+    width: 87px;
+    height: 95px;
+    background-position: 503px -232px;
+}
+.i_tecnico{
+    width: 181px;
+    height: 95px;
+    background-position: 402px -232px;
+}
+.i_t_equipe{
+    width: 148px;
+    height: 95px;
+    background-position: 212px -232px;
+}
+.i_agil{
+    width: 146px;
+    height: 95px;
+    background-position: -1px -336px;
+}
+.um_dosnossos{
+    margin-top: 63px;
+}
+
+/* Nosso sonho */
+
+.sonho {
+    position: relative;
+    background: #4b4e52;
+}
+
+.sonhoimg {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/sobre/sonho.jpg);
+    background-color: #4b4e52;
+    background-blend-mode: multiply;
+}
+
+.sonhoinner {
+    padding-top: 156px;
+    padding-bottom: 146px;
+}
+
+.sonho h2 {
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 2.5px;
+}
+
+.sonho p {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.conteudoSonho {
+    padding-left: 90px;
+    padding-right: 79px;
+}
+
+/* O que está acontecendo na Gateware */
+.oque_acontece{
+    padding-top: 101px;
+    padding-bottom: 134px;
+    background: #e4e4e4;
+}
+.title_acontece{
+    color: #657487;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 57px;
+}
+.imagem_acontece{
+    width: 304px;
+    height: 382px;
+    background: #b18048;
+}
+h3.titulo_acontece{
+    font-size: 21px;
+    line-height: 44px;
+    color: #657487;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 2px solid #657487;
+    width: 100%;
+    margin-top: 15px;
+}
+p.desc_acontece{
+    font-size: 20px;
+    line-height: 23px;
+    color:#657487;
+    font-weight: normal;
+}
+
+.acontece_row .slick-slide {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.acontece_row .slick-prev {
+    left: 25px;    z-index: 9;
+}
+.acontece_row .slick-next {
+    right: 25px;
+}
+.acontece_row .slick-next, .acontece_row .slick-prev{
+    top: 37%;
+}
+
+.acontece_row .slick-next:before, .acontece_row .slick-prev:before{
+    background-image: url(../images/assets/sprite.png);
+    width: 21px;
+    height: 39px;
+    opacity: 1 !important;
+    top: -10px;
+    display: block;
+}
+.acontece_row .slick-next:before{
+    content: "";
+    background-position: -23px -188px;
+}
+.acontece_row .slick-prev:before{
+    content: "";
+    background-position: 0px -188px;
+}
+
+.bg_talentos_gostou{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#006a9d+0,23bcbc+100 */
+background: #006a9d; /* Old browsers */
+background: -moz-linear-gradient(left, #006a9d 0%, #23bcbc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #006a9d 0%,#23bcbc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #006a9d 0%,#23bcbc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006a9d', endColorstr='#23bcbc',GradientType=1 ); /* IE6-9 */
+}
+
+.bg_talentos_gostou .btn_gostou {
+    margin-left: 155px;
+}

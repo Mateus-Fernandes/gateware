@@ -1,0 +1,154 @@
+.sobre {
+    background-image: url(../images/sobre/sobre.jpg);
+    background-position: center;
+    background-color: #6f6f6f;
+    background-blend-mode: multiply;
+}
+
+.textoSobre {
+    background: #f8f9f9;
+    font-size: 16px;
+    color: #657487;
+    line-height: 26px;
+}
+
+.imagemEquipe {
+    height: 471px;
+    background-attachment: fixed!important;
+    background: url(../images/sobre/sobre-equipe.jpg);
+    background-position: center top;
+    overflow: hidden;
+}
+
+.numeros_sobre {
+    background: #e4e4e4;
+}
+
+.numeros_sobre h2 {
+    color: #00689e;
+}
+
+.nossodna h2 {
+    color: #0077a4;
+}
+
+.nossodna {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.cadaDna h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #0077a4;
+    text-transform: none;
+}
+
+.cadaDna p {
+    color: #7b8189;
+    font-family: 'LatoWebMedium';
+    font-size: 19px;
+}
+
+.cadaDna {
+    border-bottom:2px solid #d8dade;
+    padding: 35px 0px;
+}
+
+.cadaDna:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
+.iconesDna {
+    background-image: url(../images/assets/sprite.png);
+    margin: 0 auto;
+    width: 96px;
+    height: 98px;
+}
+
+.icone_processo {
+    background-position: -150px -5px;
+}
+.icone_analise {
+    background-position: -254px -5px;
+}
+.icone_conclusao {
+    background-position: -352px -5px;
+}
+
+.sonho {
+    position: relative;
+    background: #4b4e52;
+}
+
+.sonhoimg {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/sobre/sonho.jpg);
+    background-color: #00689e;
+    background-blend-mode: multiply;
+}
+
+.sonhoinner {
+    padding-top: 156px;
+    padding-bottom: 146px;
+}
+
+.sonho h2 {
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 2.5px;
+}
+
+.sonho p {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.conteudoSonho {
+    padding-left: 90px;
+    padding-right: 79px;
+}
+
+/* Valores */
+
+.valores {
+background: #d9dee6;
+}
+
+.valores h2 {
+    font-size: 19px;
+    color: #657487;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.valores h3 {
+    color: #657487;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'LatoWebMedium';
+    border-bottom: 2px solid #657487;
+    padding-bottom: 12px;
+}
+
+.valores p {
+    color: #657487;
+    font-size: 18px;
+    font-family: 'LatoWebMedium';
+    padding-top: 12px;
+}
+
+.cadaValor {
+    padding-right: 49px;
+    margin-bottom: 20px;
+}

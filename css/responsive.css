@@ -1,0 +1,399 @@
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+    .icone_social_menu {
+        display: flex !important;
+    }
+    .headerInterna {
+        background-size: cover;
+    }
+    .topo .icone_social_topo, .topo .brasil_topo  {
+        display: none !important;
+    }
+    .iconeServico {
+        width: 216px;
+        height: 216px;
+    }
+    .fs_adicionalinner .saiba_mais_info {
+        padding: 14px 90px;
+    }
+    .consul_adicionalimg {
+        width: 55.5%;
+    }
+    .btn_azul_submit {
+        padding: 10px 31px;
+    }
+    .menu_footer .navbar .nav-link {
+        padding-left: 7px;
+        padding-right: 15px;
+    }
+    .icone_social_topo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 36px;
+    }
+    .footer_up img {
+        width: 110%;
+    }
+    ul.navbar-nav {
+        flex-direction: initial;
+    }
+    .footer_bottom .icon_c a {
+        color: #FFF;
+        font-size: 13px;
+    }
+    .logo_red {
+        width: 92px;
+    }
+
+    .cadaContato {
+        margin-bottom: 21px;
+    }
+
+    .cadaConta:nth-child(2) {
+        border-right: none;
+    }
+    .social_widget iframe {
+        width: 100%;
+    }
+    .social_contato {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cada_servico {
+        width: 52%;
+        left: 0;
+        clip-path: none;
+        position: relative;
+    }
+
+    .cada_servico:nth-child(2) {
+        position: absolute;
+        left: 50%;
+    }
+
+    .cada_servico:first-child {
+        left: -2%;
+    }
+    .cada_servico:nth-child(3) {
+        display: none;
+    }
+
+    .info_servicos_pagina .cada_info h2 {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .info_servicos_pagina .cada_info .icone_info {
+        float: left;
+        margin-left: 26%;
+    }
+    .conteudoSonho {
+        padding-left: 45px;
+        padding-right: 43px;
+    }
+
+    h3.titulo_vaga {
+        font-size: 15px; 
+    }
+
+    .bg_talentos_gostou .btn_gostou {
+        margin-left: 94px;
+    }
+
+    .numero {
+        font-size: 39px;
+    }
+    .texto_numero {
+        font-size: 13px;
+    }
+    section.nossos_numeros {
+        padding-bottom: 62px;
+    }
+
+    .titulo_setores {
+        position: absolute;
+        top: 31px;
+    }
+    .teste div:nth-child(4) .modal, .teste div:nth-child(4) .modal {
+        left: -43vw;
+    }
+    .teste div:nth-child(3) .modal, .teste div:nth-child(3) .modal {
+        left: -38%;
+    }
+    .teste div:nth-child(5) .modal, .teste div:nth-child(5) .modal {
+        left: 10%;
+    }
+    .teste div:nth-child(7) .modal, .teste div:nth-child(7) .modal {
+        left: -43vw;
+    }
+    .teste div:nth-child(6) .modal, .teste div:nth-child(6) .modal {
+        left: -38%;
+    }
+    .teste div:nth-child(8) .modal, .teste div:nth-child(8) .modal {
+        left: 7%;
+    }
+    .cada_setor:nth-child(9) .modal {
+        left: -28vw;
+    }
+
+    .info_servicos .saiba_mais_info {
+        padding: 9px 38px;
+        margin-top: 23px;
+    }
+}
+@media (max-width: 480px) 
+{
+    .topo .brasil_topo , .topo .icon_c , .topo .icone_social_topo {
+        display: none !important;
+    }
+    .menu .brasil_topo , .menu .icon_c , .menu .icone_social_topo {
+        display: flex !important;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    .carousel-caption h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .carousel-caption {
+        margin-top: 75px;
+        margin-bottom: 184px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+    .texto_numero {
+        font-size: 14px;
+    }
+    .numero {
+        font-size: 36px;
+    }
+    .texto_depoimento p {
+        margin-top: 25px;
+    }
+    .cada_info {
+        margin-bottom: 40px;
+    }
+    .cada_info h2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .formulario_news .col-md-5 {
+        padding: 12px !important;
+    }
+    .formulario_news .col-md-4 {
+        padding: 12px !important;
+    }
+    .formulario_news .col-md-3 {
+        padding: 12px !important;
+    }
+    .btn_azul_submit {
+        width: 100%;
+    }
+    .receber_contato {
+        right: 9%;
+    }
+    .copy {
+        font-size: 11px;
+    }
+    .logo_red {
+        width: 109px;
+    }
+    .headerInterna {
+        background-size: cover;
+    }
+    /* SOBRE */
+
+    .sonho p {
+        font-size: 21px;
+    }
+    .sonhoinner {
+        padding-top: 113px;
+        padding-bottom: 122px;
+    }
+    .sonhoimg {
+        width: 100%;
+    }
+
+    /* Servicos */
+    .textoServicos p {
+        margin-bottom: 27px;
+        padding-right: 0;
+    }
+    .caixa_servicos {
+        font-size: 22px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .cada_servico {
+        width: 100%;
+        left: 0;
+        clip-path: none;
+        position: relative !important;
+    }
+    .cada_servico:first-child {
+        left: 0 !important;
+    }
+    .cada_servico:nth-child(2) {
+        left: 0;
+        top: -16px;
+    }
+    .cada_servico:nth-child(3) {
+        right: 0;
+        top: -33px;
+    }
+    .titulo_servico {
+        padding-left: 31px;
+    }
+
+    /* Servicos interna */
+    .iconeServico {
+        width: 152px;
+        height: 153px;
+        margin: 0 auto;
+    }
+    .servicosInterna .tituloPagina {
+        padding-left: 5px;
+        padding-top: 19px;
+        padding-bottom: 69px;
+    }
+    .servicosInterna .tituloPagina h1 {
+        font-size: 38px;
+        text-align: center;
+        line-height: 52px;
+    }
+    .execucaoimg {
+        width: 100%;
+    }
+    .textoExecucao h3 {
+        font-size: 29px;
+    }
+    .fs_adicionalimg {
+        width: 0;
+    }
+    .fs_adicionalinner .titulo_servico {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .fs_adicionalinner .saiba_mais_info {
+        padding: 14px 98px;
+    }
+    .gostou_gateware {
+        font-size: 21px;
+        padding: 30px 14px;
+        padding-bottom: 59px;
+    }
+    .btn_gostou {
+        letter-spacing: 1px;
+        /* padding-right: 21px; */
+        /* padding-left: 21px; */
+        margin-left: 28px;
+        font-size: 11px;
+        padding: 5px 11px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .numServico {
+        font-size: 119px;
+    }
+
+    /* Contato */
+    .textoContato {
+        padding-top: 34px;
+        padding-bottom: 25px;
+    }
+    .cadaContato {
+        border-right: none;
+        margin-bottom: 19px;
+    }
+    .localizacao_contato iframe {
+        margin-bottom: 30px;
+    }
+    .social_widget .social_contato {
+        margin-top: 0;
+    }
+
+    /* another things */
+    .menu_footer .navbar {
+        padding-left: 0;
+    }
+    
+    .depoimentos_slicked .slick-prev {
+        left: -12px;
+    }
+    .depoimentos_slicked .slick-next {
+        right: -2px;
+        top: 40%;
+    }
+    .top_setor .modal, .top_setor .modal-backdrop {
+        position: absolute !important;
+        width: 385px;
+        left: -6px !important;
+        min-height: 740px;
+    }
+    .abaixo_setor .modal, .abaixo_setor .modal-backdro{     
+        position: absolute !important;
+        width: 385px;
+        top: 50%;
+        padding-right: 0 !important;
+        left: -6px !important;
+        min-height: 740px;   
+    }
+    .cada_setor a {
+        background: #0fa6b6;
+        color: #FFF;
+        padding: 10px 100px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        width: 100%;
+    }
+    /* Talentos */
+    .imagem_acontece {
+        margin: 0 auto;
+    }
+    .oque_acontece {
+        padding-top: 101px;
+        padding-bottom: 76px;
+    }
+    .bg_talentos_gostou .btn_gostou {
+        margin-left: 0;
+    }
+    section.nossos_numeros .col-md-3.col-6 {
+        margin-bottom: 13px;
+    }
+    .info_servicos_pagina .cada_info h2 {
+        float: left;
+        width: 62%;
+    }
+    .tituloPagina h2 {
+        font-size: 16px; 
+    }
+    .conteudoSonho {
+        padding-left: 53px;
+        padding-right: 53px;
+    }
+    .receber_btn {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .footer_bottom .icon_c a {
+        color: #FFF;
+        font-size: 12px;
+    }
+    .contato_mail {
+        margin-right: 13px;
+    }
+}
+@media (min-width: 1600px) 
+{
+    .menu {
+        width: 27vw;
+    }
+}
