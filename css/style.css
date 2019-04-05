@@ -798,3 +798,7 @@ section.nossos_numeros .coluna{
 .modal{
 	z-index: 9999999999999;
 }
+
+.footer_up img {
+    width: 307px;
+}
