@@ -41,7 +41,9 @@ h2{
 	width: 20px;
     height: 39px;
 }
-
+i {
+	transition: .5s;
+}
 a {
 	transition: .5s;
 	text-decoration: none;
@@ -95,6 +97,10 @@ header.topo{
 }
 .icone_social_topo{
 	margin-right: 30px;
+}
+
+.icone_social_topo i {
+	transition: .4s;
 }
 .icone_social_topo div{
 	width: 22px;
@@ -808,6 +814,14 @@ section.nossos_numeros .coluna{
 
 .footer_bottom .icon_c a {
 	color: #FFF;
+}
+
+.footer_bottom .icon_c a:hover {
+	color: #ff890b;
+}
+
+.footer_bottom .icon_c a:hover i {
+	color: #ff890b;
 }
 
 /* Modal Footer */
