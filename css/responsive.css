@@ -66,6 +66,7 @@
         width: 52%;
         left: 0;
         clip-path: none;
+        -webkit-clip-path: none;
         position: relative;
     }
 

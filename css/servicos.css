@@ -39,7 +39,7 @@
     position: relative;
     padding-top: 93px;
     background-blend-mode: multiply;
-    min-height: 592px;
+    min-height: 545px;
 }
 
 .cada_servico:first-child {
@@ -151,7 +151,7 @@
 
 .botaoSaiba {
     position: absolute;
-    bottom: 108px;
+    bottom: 56px;
     left: 24%;
 }
 

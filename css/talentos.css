@@ -202,10 +202,11 @@ p.desc_acontece{
     margin-right: 13px;
 }
 .acontece_row .slick-prev {
-    left: 25px;    z-index: 9;
+    left: 9px;
+    z-index: 9;
 }
 .acontece_row .slick-next {
-    right: 25px;
+    right: 9px;
 }
 .acontece_row .slick-next, .acontece_row .slick-prev{
     top: 37%;
@@ -239,4 +240,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006a9d', end
 
 .bg_talentos_gostou .btn_gostou {
     margin-left: 155px;
+}
+
+.cada_vaga:hover .seta_vaga {
+    transform: translateX(20px);
+} 
+
+.cada_vaga a:hover {
+    text-decoration: none
 }

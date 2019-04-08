@@ -37,6 +37,11 @@ h2{
 	font-family: 'LatoWebMedium';
 }
 
+.slick-next, .slick-prev {
+	width: 20px;
+    height: 39px;
+}
+
 a {
 	transition: .5s;
 	text-decoration: none;
