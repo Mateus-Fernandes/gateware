@@ -308,9 +308,9 @@ header.topo{
 
 .receber_contato {
     position: fixed;
-    right: 5%;
-	bottom: 100px;
-	z-index: 999;
+    right: 2%;
+    bottom: 45px;
+    z-index: 999;
 }
 
 /* BreadCrumb --> V.F. - STYLES COMPARTILHADOS*/
