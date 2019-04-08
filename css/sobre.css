@@ -18,6 +18,7 @@
     background: url(../images/sobre/sobre-equipe.jpg);
     background-position: center top;
     overflow: hidden;
+    background-size: cover;
 }
 
 .numeros_sobre {

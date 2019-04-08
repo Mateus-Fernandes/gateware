@@ -99,12 +99,27 @@ header.topo{
 }
 .icone_social_topo .facebook_topo{
 	background-position: -72px -11px;
+	transition: .6s;
 }
+.icone_social_topo .facebook_topo:hover{
+	background-position: -72px -36px;
+}
+
 .icone_social_topo .linkedin_topo{
 	background-position: -123px -11px;
+	transition: .6s;
 }
+.icone_social_topo .linkedin_topo:hover {
+	background-position: -123px -36px;
+}
+
 .icone_social_topo .instagram_topo{
 	background-position: -97px -11px;
+	transition: .6s;
+}
+
+.icone_social_topo .instagram_topo:hover {
+	background-position: -97px -36px;
 }
 .icon_c i{
 	color: #0078b5;
@@ -117,6 +132,10 @@ header.topo{
 .icon_c a:hover {
 	color: #2fb7bb;
 	text-decoration: none;
+}
+
+.icon_c a:hover i {
+	color: #2fb7bb;
 }
 .menuButton {
 	font-size: 30px;
@@ -206,12 +225,24 @@ header.topo{
 
 .footer_up .icone_social_topo .facebook_topo{
 	background-position: -72px -36px;
+	transition: .6s;
+}
+.footer_up .icone_social_topo .facebook_topo:hover{
+	background-position: -72px -11px;
 }
 .footer_up .icone_social_topo .linkedin_topo{
 	background-position: -123px -36px;
+	transition: .6s;
+}
+.footer_up .icone_social_topo .linkedin_topo:hover {
+	background-position: -123px -11px;
 }
 .footer_up .icone_social_topo .instagram_topo{
 	background-position: -97px -36px;
+	transition: .6s;
+}
+.footer_up .icone_social_topo .instagram_topo:hover{
+    background-position: -97px -11px;
 }
 .footer_bottom{
 	padding-top: 21px;
@@ -264,10 +295,11 @@ header.topo{
 	box-shadow: 2px 10px 12px 1px #00000052;
 }
 
-.receber_contato{
-	position: absolute;
+.receber_contato {
+    position: fixed;
     right: 5%;
-    top: -15px;
+	bottom: 100px;
+	z-index: 999;
 }
 
 /* BreadCrumb --> V.F. - STYLES COMPARTILHADOS*/
@@ -525,6 +557,19 @@ header.topo{
     width: 100%;
 }
 
+.info_servicos_pagina .saiba_mais_info:hover {
+    background: #ff890b;
+    color: #FFF;
+}
+
+.cada_info_link:hover {
+	text-decoration: none;
+}
+.cada_info_link:hover ~ .saiba_mais_info {
+	background: #ff890b;
+    color: #FFF;
+}
+
 /* Nossos Números */
 
 section.nossos_numeros{
@@ -642,16 +687,18 @@ section.nossos_numeros .coluna{
 	-ms-transition: all 0.2s ease;
 	transition: all 0.2s ease;
   }
-	.menu a {
+  .menu a {
     color: WhiteSmoke;
     width: 100%;
-    padding: 0 20px;
+    padding: 13px 20px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 300;
-		font-family: 'Lato', sans-serif;
-		text-decoration: none;
-		transition: .5s;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    border-radius: 12px;
 }
 
 .menu ul {
@@ -660,20 +707,14 @@ section.nossos_numeros .coluna{
 }
 
 .menu li {
-	padding-bottom: 13px;
-	padding-top: 13px;
-	border-bottom: 1px solid #136586;
-	transition: .5s;
-	border-radius: 12px;
+    border-bottom: 1px solid #136586;
+    border-radius: 12px;
 }
 
-.menu li:hover {
-	background: #fbfbfb;
-}
-
-.menu li:hover a {
-	color: #05567b;
-	font-weight: 500;
+.menu li a:hover {
+    color: #05567b;
+    font-weight: 500;
+    background: whitesmoke;
 }
 
 .sticky {
@@ -707,6 +748,10 @@ section.nossos_numeros .coluna{
 	.icones_contato i {
 		color: #FFF;
 	}
+
+	.menu .icon_c a:hover i {
+		color: #ffffff;
+	}
 	.contato_mail_menu {
 		margin-right: 0;
 	}
@@ -733,18 +778,28 @@ section.nossos_numeros .coluna{
 	justify-content: center;
 	margin-top: -13px;
 }
-
-.icone_social_menu .facebook_topo {
+.icone_social_menu .facebook_topo{
 	background-position: -72px -36px;
+	transition: .6s;
 }
-
-.icone_social_menu .instagram_topo {
-	background-position: -97px -36px;
+.icone_social_menu .facebook_topo:hover{
+	background-position: -72px -11px;
 }
-
-.icone_social_menu .linkedin_topo {
+.icone_social_menu .linkedin_topo{
 	background-position: -123px -36px;
+	transition: .6s;
 }
+.icone_social_menu .linkedin_topo:hover {
+	background-position: -123px -11px;
+}
+.icone_social_menu .instagram_topo{
+	background-position: -97px -36px;
+	transition: .6s;
+}
+.icone_social_menu .instagram_topo:hover{
+    background-position: -97px -11px;
+}
+
 
 .footer_bottom .icon_c a {
 	color: #FFF;

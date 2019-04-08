@@ -75,6 +75,12 @@
 
 
 /* Setores Atendidos */
+
+.imagem_setor {
+    position: relative;
+    overflow: hidden;
+}
+
 .cada_setor h3 {
 	position: absolute;
 	top: 50%;
@@ -91,9 +97,16 @@
 	background: #575450;
 	overflow: hidden;
 	cursor: pointer;
+	
 }
+
+.cada_setor:hover img {
+	transform: scale(1.5);
+}
+
 .cada_setor img{
 	mix-blend-mode: multiply;
+	transition: transform .4s;
 }
 .cada_setor h4{
 	font-size: 27px;
@@ -272,4 +285,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006a9d', end
 	letter-spacing: inherit;
 	display: flex;
     align-items: center;
+}
+
+.cada_info_link:hover {
+	text-decoration: none;
+}
+.cada_info_link:hover ~ .saiba_mais_info {
+	background: #ff890b;
+    color: #FFF;
 }
